@@ -4,7 +4,7 @@
 [![License]](https://github.com/tjunghans/react-integration/blob/master/LICENCE)
 
 Runs an integration server for previewing a react component in the
-browser. For an example have a look at the integration directory of [react-list](https://github.com/tjunghans/react-list).
+browser. For an example have a look at the integration directory of [react-list](https://github.com/tjunghans/react-list/tree/master/integration).
 
 
 ## Install
