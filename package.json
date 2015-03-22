@@ -1,0 +1,50 @@
+{
+  "name": "react-integration",
+  "description": "Component Integration",
+  "version": "0.0.0",
+  "main": "./lib/react-integration",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "scripts": {
+    "start": "mocha --watch -R spec",
+    "lint": "jshint --reporter ./node_modules/jshint-stylish/stylish.js ./**/*.js",
+    "test": "npm run lint && mocha -R spec"
+  },
+  "dependencies": {
+    "browserify": "^9.0",
+    "express": "^4.12",
+    "react": "^0.13",
+    "reactify": "^1.1",
+    "stylus": "^0.50",
+    "stylus-deps-to-css": "^0.1.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.6",
+    "jshint-stylish": "^1.0",
+    "mocha": "^2.2"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "static/index.html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjunghans/react-integration"
+  },
+  "bugs": {
+    "url": "https://github.com/tjunghans/react-integration/issues"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "list",
+    "html"
+  ],
+  "licences": {
+    "type": "MIT"
+  }
+}
