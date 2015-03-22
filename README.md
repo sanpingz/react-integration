@@ -84,7 +84,7 @@ In the package.json:
 
 ```js
 "stylus": "./css/main.styl",
-``
+```
 
 
 ## API
